@@ -1,2 +1,2 @@
-# devskoopy.github.io
-this is something, I guess?
+# Hi, I'm SkoopyDev!
+I'm a Godot game developer who also develops discord.js bots on the side.
