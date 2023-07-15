@@ -1,4 +1,4 @@
-# Hey there, I'm SkoopyDev!
+# Hey there!
 
 ### I make games using Godot! I also have a hobby of making bots using discord.js v14!
 
