@@ -1,13 +1,5 @@
 title: Skoopy Dev
 description: I'm a Godot game developer and I also develop Discord bots on the side!
-darkmode: false
-# logo_url: ./logo.png # Either absolute or relative url
-
-colors:
-    gradient_left: "#FF0000" # 57D982 
-    gradient_right: "#00FF00" # 53CF59
-    header: "#fff"
-
-remote_theme: tuur29/pages-themes-cayman
+remote_theme: pages-themes/cayman
 plugins:
  - jekyll-remote-theme
