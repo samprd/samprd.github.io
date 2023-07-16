@@ -1,5 +1,3 @@
 title: Skoopy Dev
 description: I'm a Godot game developer and I also develop Discord bots on the side!
-remote_theme: pages-themes/cayman
-plugins:
- - jekyll-remote-theme
+theme: cayman
