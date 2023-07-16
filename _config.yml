@@ -10,13 +10,10 @@ colors:
 #    link: "#1e6bb8" # this default to gradient_color
 #    section_title: "#155799" # this default to gradient_color
 buttons:
-      zip_url: http://example.com/
-      zip_title: Title
       zip_hide: true
-      tar_url: http://example.com/
-      tar_title: Title
       tar_hide: true
-      github_hide: true # hides "View on Github"
+      github_hide: true
+
 remote_theme: tuur29/pages-themes-cayman
 plugins:
  - jekyll-remote-theme
