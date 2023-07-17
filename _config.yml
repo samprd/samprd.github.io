@@ -10,17 +10,17 @@ name                     : "Skoopy Dev"
 description              : "I'm a Godot game developer and I also develop Discord bots on the side!"
 url                      : "https://skoopy.jased.xyz"
 repository               : "devskoopy/devskoopy.github.io"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/default.png"
 masthead_title           : "Skoopy Dev"
 
 # Site Footer
 footer:
   links:
     - label: "itch.io"
-      icon: "fas fa-fw fa-link"
+      icon: "/default.png"
       url: "https://skoopydev.itch.io"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "/default.png"
       url: "https://github.com/devskoopy"
 
 
