@@ -1,6 +1,52 @@
 title: "Skoopy Dev"
 description: "I'm a Godot game developer and I also develop Discord bots on the side!"
+baseurl: ""
+url: "https://skoopy.jased.xyz"
 
-remote_theme: pages-themes/cayman
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  title: Skoopy Dev
+  avatar: default.png
+  favicon: favicon.ico
+  gravatar: 
+  description: "Game and Bot Devloper" # used by search engines
+
+  # Header and footer text
+  header_text: "Hi there!"
+  header_text_feature_image:
+  footer_text: "Hi there!"
+
+  # Icons
+  rss: 
+  email_address: 
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: 
+  gitter:
+  google_plus:
+  instagram:
+  linkedin:  
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter:
+  wordpress:
+  youtube:
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
+
+remote_theme: rohanchandra/type-theme
 plugins:
 - jekyll-remote-theme
