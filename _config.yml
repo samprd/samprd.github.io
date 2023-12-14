@@ -1,6 +1,6 @@
-title: "Skoopy Dev"
-description: "I'm a Godot game developer and I also develop Discord bots on the side!"
+title: "samp"
+description: "Hi there!"
 
-remote_theme: pages-themes/cayman
+remote_theme: pages-themes/slate
 plugins:
 - jekyll-remote-theme
