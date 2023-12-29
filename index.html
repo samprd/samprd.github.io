@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>samp</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/21de8bcde4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav>
+			<img src="images/logo.png" class="logo">
+			<ul id="sidemenu">
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+			</ul>
+			<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+		<div class="header-text">
+			<p>Super Cool Developer</p>
+			<h1>Hi, I'm <span>Kevin</span><br>from Earth</h1>
+		</div>
+	</div>
+</div>
+<!--about-->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/user.png" alt="something">
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">About Me</h1>
+				<p>something something something</p>
+
+				<div class="tab-titles">
+					<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+					<p class="tab-links" onclick="opentab('experience')">Experience</p>
+					<p class="tab-links" onclick="opentab('education')">Education</p>
+				</div>
+				<div class="tab-contents active-tab" id="skills">
+					<ul>
+						<li><span>UI/UX</span><br>Designer</li>
+						<li><span>Web Development</span><br>Web App Developer</li>
+						<li><span>App Development</span><br>Building iOS/Android Apps</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="experience">
+					<ul>
+						<li><span>2023</span><br>Blue</li>
+						<li><span>2022</span><br>Red</li>
+						<li><span>2021</span><br>Yellow</li>
+					</ul>
+				</div>
+				<div class="tab-contents" id="education">
+					<ul>
+						<li><span>Word</span><br>stuff</li>
+						<li><span>Docs</span><br>planet</li>
+						<li><span>Slides</span><br>talk</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--services-->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-code"></i>
+				<h2>Web Design</h2>
+				<p>I love pizza and McDonald's!</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-crop"></i>
+				<h2>UI/UX Design</h2>
+				<p>I love ice cream and chocolate!</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-brands fa-app-store"></i>
+				<h2>App Design</h2>
+				<p>I love apples and steaks!</p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--portfolio-->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/work-1.png" alt="first work">
+				<div class="layer">
+					<h3>Social Media App</h3>
+					<p>description</p>
+					<a href="#"><i class="fa-solid fa-link"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-2.png" alt="second work">
+				<div class="layer">
+					<h3>Music App</h3>
+					<p>description</p>
+					<a href="#"><i class="fa-solid fa-link"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-3.png" alt="third work">
+				<div class="layer">
+					<h3>Online Shopping App</h3>
+					<p>description</p>
+					<a href="#"><i class="fa-solid fa-link"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See more</a>
+	</div>
+</div>
+<!--contact-->
+<div id="contact">
+	<div class="container">
+		<div class="contactrow">
+			<div class="contact-col-1">
+				<h1 class="sub-title">My Socials</h1>
+				<p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+				<div class="social-icons">
+					<a href="https://github.com/samprdev"><i class="fa-brands fa-github"></i></a>
+					<a href="https://samprdev.itch.io/"><i class="fa-brands fa-itch-io"></i></a>
+					<!--<a href=""><i class="fa-brands fa-discord"></i></a>-->
+				</div>
+			</div>
+			<div class="contact-col-2">
+				<img src="images/user.png" alt="something">
+			</div>
+		</div>
+	</div>
+	<div class="createdby">
+		<p>Made with <i class="fa-solid fa-fish"></i> by samp</p>
+	</div>
+</div>
+
+<script>
+
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+
+</script>
+
+<script>
+
+	var sidemenu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemenu.style.right = "0";
+	}
+	function closemenu(){
+		sidemenu.style.right = "-200px";
+	}
+
+</script>
+
+</body>
+</html>

@@ -1,6 +1,0 @@
-title: "samp"
-description: "Hi there!"
-
-remote_theme: pages-thems/cayman
-plugins:
-- jekyll-remote-theme
