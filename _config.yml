@@ -1,6 +1,6 @@
 title: "samp"
 description: "Hi there!"
 
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: pages-thems/cayman
 plugins:
 - jekyll-remote-theme
