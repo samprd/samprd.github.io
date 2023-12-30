@@ -115,6 +115,10 @@ nav ul li a:hover::after{
 	color: #fff;
 }
 
+.aboutDesc{
+	margin-top: 15px;
+}
+
 .tab-titles{
 	display: flex;
 	margin: 20px 0 40px;
@@ -186,13 +190,18 @@ nav ul li a:hover::after{
 }
 .hobbies-list div a{
 	text-decoration: none;
+	font-size: 18px;
 	color: #fff;
-	margin-top: 20px;
+	margin-top: 30px;
 	display: inline-block;
+	transition: color 0.5s;
 }
 .hobbies-list div:hover{
 	background: #ed8925;
 	transform: translateY(-10px);
+}
+.hobbies-list div a:hover{
+	color: #f7ad4e;
 }
 
 /* projects */
@@ -226,7 +235,7 @@ nav ul li a:hover::after{
 .layer{
 	width: 100%;
 	height: 0;
-	background: linear-gradient(rgba(0,0,0,0.6), #ed8925);
+	background: linear-gradient(rgba(0, 0, 0, 0.6), #ed8925);
 	border-radius: 10px;
 	position: absolute;
 	left: 0;
@@ -256,6 +265,11 @@ nav ul li a:hover::after{
 	height: 60px;
 	border-radius: 50%;
 	text-align: center;
+	transition: background 0.5s, color 0.5s;
+}
+.layer a:hover{
+	background: #ed8925;
+	color: #fff;
 }
 .project:hover .layer{
 	height: 100%;
@@ -315,8 +329,8 @@ nav ul li a:hover::after{
 }
 .social-icons a{
 	text-decoration: none;
-	font-size: 30px;
-	margin-right: 15px;
+	font-size: 60px;
+	margin-right: 30px;
 	margin-bottom: 30px;
 	color: #ababab;
 	display: inline-block;
