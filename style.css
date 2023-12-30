@@ -99,10 +99,11 @@ nav ul li a:hover::after{
 .about-col-1 img{
 	width: 100%;
 	display: block;
-	transition: transform 0.5s;
+	transition: transform 0.5s, rotate 0.6s;
 }
 .about-col-1:hover img{
 	transform: scale(1.2);
+	rotate: 1 1 0 25deg;
 }
 
 .about-col-2{
@@ -226,10 +227,12 @@ nav ul li a:hover::after{
 	width: 100%;
 	border-radius: 10px;
 	display: block;
-	transition: transform 0.5s;
+	transform: scale(1.2);
+	transition: transform 0.5s, rotate 0.6s;
 }
 .project:hover img{
-	transform: scale(1.1);
+	transform: scale(1.5);
+	rotate: 30deg;
 }
 
 .layer{
@@ -317,11 +320,11 @@ nav ul li a:hover::after{
 .contact-col-2 img{
 	width: 100%;
 	display: block;
-	transform: scale(1.2);
-	transition: transform 0.5s;
+	transition: transform 0.5s, rotate 0.6s;
 }
 .contact-col-2:hover img{
-	transform: scale(1.0);
+	transform: scale(1.2);
+	rotate: -1 1 0 30deg;
 }
 
 .social-icons{
