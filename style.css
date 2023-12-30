@@ -131,6 +131,13 @@ nav ul li a:hover::after{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
+	transition: color 0.5s;
+}
+.tab-links:hover{
+	color: #d47138;
+}
+.tab-links.active-link{
+	color: #ed8925;
 }
 .tab-links::after{
 	content: '';
