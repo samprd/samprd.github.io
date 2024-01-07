@@ -372,6 +372,11 @@ nav ul li a:hover::after{
 }
 .createdby i{
 	color: #ed8925;
+	transition: transform 0.5s, margin 0.5s;
+}
+.createdby:hover i{
+	transform: scale(1.5);
+	margin: 0 5px;
 }
 
 /* css for small screens */
