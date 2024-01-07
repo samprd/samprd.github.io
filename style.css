@@ -306,40 +306,40 @@ nav ul li a:hover::after{
 	transform: scale(1.1);
 }
 
-/*contact*/
-.contactrow{
+/*socials*/
+.socialsrow{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.contact-col-1{
+.socials-col-1{
 	flex-basis: 30%;
 }
-.contact-col-1 p{
+.socials-col-1 p{
 	margin-top: 30px;
 }
-.contact-col-1 p i{
+.socials-col-1 p i{
 	color: #ed8925;
 	margin-right: 15px;
 	font-size: 25px;
 	transition: transform 0.5s;
 }
-.contact-col-1 p:hover i{
+.socials-col-1 p:hover i{
 	transform: scale(1.2);
 }
 
-.contact-col-2{
+.socials-col-2{
 	border-radius: 15px;
 	flex-basis: 60%;
 	overflow: hidden;
 }
-.contact-col-2 img{
+.socials-col-2 img{
 	width: 100%;
 	display: block;
 	transition: transform 0.5s, rotate 0.6s;
 }
-.contact-col-2:hover img{
+.socials-col-2:hover img{
 	transform: scale(1.2);
 	rotate: -1 1 0 30deg;
 }
@@ -431,7 +431,7 @@ nav .fa-solid{
 		font-size: 16px;
 		margin-right: 20px;
 	}
-	.contact-col-1, .contact-col-2{
+	.socials-col-1, .socials-col-2{
 		flex-basis: 100%;
 	}
 	.createdby{
