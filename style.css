@@ -185,7 +185,7 @@ nav ul li a:hover::after{
 	font-size: 13px;
 	font-weight: 300;
 	border-radius: 10px;
-	transition: background 0.5s, transform 0.5s;
+	transition: background 0.5s, transform 0.5s, scale 0.5s;
 }
 .hobbies-list div i{
 	font-size: 50px;
@@ -207,6 +207,7 @@ nav ul li a:hover::after{
 .hobbies-list div:hover{
 	background: #ed8925;
 	transform: translateY(-10px);
+	scale: 1.03;
 }
 .hobbies-list div a:hover{
 	color: #f7ad4e;
@@ -228,6 +229,10 @@ nav ul li a:hover::after{
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
+	transition: transform 0.5s;
+}
+.project:hover{
+	transform: scale(1.07);
 }
 
 .project img{
