@@ -92,8 +92,8 @@ nav ul li a:hover::after{
 }
 
 .about-col-1{
-	border-radius: 15px;
-	flex-basis: 35%;
+	border-radius: 30px;
+	flex-basis: 50%;
 	overflow: hidden;
 }
 .about-col-1 img{
@@ -107,7 +107,7 @@ nav ul li a:hover::after{
 }
 
 .about-col-2{
-	flex-basis: 60%;
+	flex-basis: 45%;
 }
 
 .sub-title{
@@ -122,7 +122,7 @@ nav ul li a:hover::after{
 
 .tab-titles{
 	display: flex;
-	margin: 20px 0 40px;
+	margin: 20px 0 20px;
 }
 
 .tab-links{
@@ -153,6 +153,34 @@ nav ul li a:hover::after{
 	width: 50%;
 }
 
+.tab-links-2{
+	margin-right: 50px;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+	position: relative;
+	transition: color 0.5s;
+}
+.tab-links-2:hover{
+	color: #d47138;
+}
+.tab-links-2.active-link-2{
+	color: #ed8925;
+}
+.tab-links-2::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	background: #ed8925;
+	position: absolute;
+	left: 0;
+	bottom: -8px;
+	transition: 0.5s;
+}
+.tab-links-2.active-link-2::after{
+	width: 50%;
+}
+
 .tab-contents ul li{
 	list-style: none;
 	margin: 10px 0;
@@ -165,6 +193,21 @@ nav ul li a:hover::after{
 	display: none;
 }
 .tab-contents.active-tab{
+	display: block;
+}
+
+.tab-contents-2 ul li{
+	list-style: none;
+	margin: 10px 0;
+}
+.tab-contents-2 ul li span {
+	color: #d47138;
+	font-size: 14px;
+}
+.tab-contents-2{
+	display: none;
+}
+.tab-contents-2.active-tab-2{
 	display: block;
 }
 
