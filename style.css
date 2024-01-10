@@ -136,6 +136,7 @@ nav ul li a:hover::after{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
+	color: #c7c7c7;
 	transition: color 0.5s;
 }
 .tab-links:hover{
@@ -165,6 +166,7 @@ nav ul li a:hover::after{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
+	color: #c7c7c7;
 	transition: color 0.5s;
 }
 .tab-links-2:hover{
