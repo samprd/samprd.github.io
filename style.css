@@ -122,11 +122,12 @@ nav ul li a:hover::after{
 
 .tab-titles{
 	display: flex;
-	margin: 20px 0 30px;
+	margin: 20px 0 20px;
 }
 
 .tab-links{
 	margin-right: 50px;
+	margin-bottom: 10px;
 	font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
@@ -155,6 +156,7 @@ nav ul li a:hover::after{
 
 .tab-links-2{
 	margin-right: 50px;
+	margin-bottom: 10px;
 	font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
