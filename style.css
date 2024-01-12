@@ -59,6 +59,9 @@ nav ul li a{
 }
 nav ul li a::after{
 	content: '';
+	font-size: 0;
+	text-align: center;
+	content-visibility: hidden;
 	width: 0;
 	height: 3px;
 	background: #ed8925;
@@ -67,8 +70,24 @@ nav ul li a::after{
 	bottom: -6px;
 	transition: 0.5s;
 }
+.game::after{
+	content: 'Gamedev';
+}
+.code::after{
+	content: 'Programming';
+}
+.video::after{
+	content: 'Videography';
+}
+.ship::after{
+	content: 'Projects';
+}
+.faq::after{
+	content: 'FAQ';
+}
 nav ul li a:hover::after{
 	width: 100%;
+	font-size: 28px;
 }
 
 .header-text{
