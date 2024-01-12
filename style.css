@@ -470,6 +470,10 @@ nav ul li a:hover::before{
 	nav ul li a{
 		font-size: 24px;
 	}
+	nav ul li a:hover::before{	
+		font-size: 18px;
+		bottom: -30px;
+	}
 	.sub-title{
 		font-size: 40px;
 	}
