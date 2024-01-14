@@ -13,11 +13,11 @@
 		<nav>
 			<img src="../assets/images/logo.png" class="logo">
 			<ul>
-				<li><a class="home" href="../"><i class="fa-solid fa-house-blank"></i></a></li>
-				<li><a class="game" href="../gamedev/"><i class="fa-solid fa-gamepad-modern"></i></a></li>
-				<li><a class="code" href="../programming/"><i class="fa-solid fa-code-simple"></i></a></li>
-				<li><a class="video" href="../videography/"><i class="fa-solid fa-video"></i></a></li>
-				<li><a class="ship" href="../projects/"><i class="fa-regular fa-rocket"></i></a></li>
+				<li><a class="home" onclick="openlink('../')"><i class="fa-solid fa-house-blank"></i></a></li>
+				<li><a class="game" onclick="openlink('../gamedev/')"><i class="fa-solid fa-gamepad-modern"></i></a></li>
+				<li><a class="code" onclick="openlink('../programming/')"><i class="fa-solid fa-code-simple"></i></a></li>
+				<li><a class="video" onclick="openlink('../videography/')"><i class="fa-solid fa-video"></i></a></li>
+				<li><a class="ship" onclick="openlink('../projects/')"><i class="fa-regular fa-rocket"></i></a></li>
 				<li><a class="faq activenav" href=""><i class="fa-solid fa-question"></i></a></li>
 			</ul>
 		</nav>
@@ -27,5 +27,28 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	function openlink(link, openwindow=false){
+		const fade = [
+			{ opacity: 1 },
+			{ opacity: 0 },
+		];
+
+		const timing = {
+			duration: 1000,
+			iterations: 1,
+		};
+
+		document.body.animate(fade, timing);
+
+		if (openwindow){
+			setTimeout(function(){ open(link, "_blank"); }, 1000);
+		} else{
+			setTimeout(function(){ open(link, "_self"); }, 1000);
+		}		
+	}
+</script>
+
 </body>
 </html>

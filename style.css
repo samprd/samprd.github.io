@@ -17,6 +17,14 @@ html{
 body{
 	background: #080808;
 	color: #fff;
+	transition: opacity 1s;
+	animation-name: fadeout;
+	animation-duration: 1s;
+}
+
+@keyframes fadeout {
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 
 #header{

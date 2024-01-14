@@ -15,11 +15,11 @@
 			<img src="./assets/images/logo.png" class="logo">
 			<ul>
 				<li><a class="home activenav" href=""><i class="fa-solid fa-house-blank"></i></a></li>
-				<li><a class="game" href="gamedev/"><i class="fa-solid fa-gamepad-modern"></i></a></li>
-				<li><a class="code" href="programming/"><i class="fa-solid fa-code-simple"></i></a></li>
-				<li><a class="video" href="videography/"><i class="fa-solid fa-video"></i></a></li>
-				<li><a class="ship" href="projects/"><i class="fa-regular fa-rocket"></i></a></li>
-				<li><a class="faq" href="faq/"><i class="fa-solid fa-question"></i></a></li>
+				<li><a class="game" onclick="openlink('gamedev/')"><i class="fa-solid fa-gamepad-modern"></i></a></li>
+				<li><a class="code" onclick="openlink('programming/')"><i class="fa-solid fa-code-simple"></i></a></li>
+				<li><a class="video" onclick="openlink('videography/')"><i class="fa-solid fa-video"></i></a></li>
+				<li><a class="ship" onclick="openlink('projects/')"><i class="fa-regular fa-rocket"></i></a></li>
+				<li><a class="faq" onclick="openlink('faq/')"><i class="fa-solid fa-question"></i></a></li>
 			</ul>
 		</nav>
 		<div class="header-text">
@@ -106,19 +106,19 @@
 				<i class="fa-solid fa-gamepad-modern"></i>
 				<h2>Game Development</h2>
 				<p>I enjoy creating games with Godot</p>
-				<a href="gamedev/">Learn more</a>
+				<a onclick="openlink('gamedev/')">Learn more</a>
 			</div>
 			<div>
 				<i class="fa-solid fa-code"></i>
 				<h2>Programming</h2>
 				<p>I like to program all sorts of things</p>
-				<a href="programming/">Learn more</a>
+				<a onclick="openlink('programming/')">Learn more</a>
 			</div>
 			<div>
 				<i class="fa-solid fa-video"></i>
 				<h2>Videography</h2>
 				<p>I'm interested in making documentaries</p>
-				<a href="videography/">Learn more</a>
+				<a onclick="openlink('videography/')">Learn more</a>
 			</div>
 		</div>
 	</div>
@@ -164,9 +164,9 @@
 				<h1 class="sub-title"><i class="fa-solid fa-messages"></i> My Socials</h1>
 				<p><i class="fa-solid fa-paper-plane"></i> socials@example.com</p>
 				<div class="social-icons">
-					<a href="https://github.com/samprdev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-					<a href="https://samprdev.itch.io/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-itch-io"></i></a>
-					<a href="https://youtube.com/@samprdev/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+					<a onclick="openlink('https://github.com/samprdev/', true)"><i class="fa-brands fa-github"></i></a>
+					<a onclick="openlink('https://samprdev.itch.io/'), true"><i class="fa-brands fa-itch-io"></i></a>
+					<a onclick="openlink('https://youtube.com/@samprdev')"><i class="fa-brands fa-youtube"></i></a>
 					<!--<a href="#"><i class="fa-brands fa-discord"></i></a>-->
 				</div>
 			</div>
@@ -213,16 +213,25 @@
 </script>
 
 <script>
+	function openlink(link, openwindow=false){
+		const fade = [
+			{ opacity: 1 },
+			{ opacity: 0 },
+		];
 
-	var sidemenu = document.getElementById("sidemenu");
+		const timing = {
+			duration: 1000,
+			iterations: 1,
+		};
 
-	function openmenu(){
-		sidemenu.style.right = "0";
+		document.body.animate(fade, timing);
+
+		if (openwindow){
+			setTimeout(function(){ open(link, "_blank"); }, 1000);
+		} else{
+			setTimeout(function(){ open(link, "_self"); }, 1000);
+		}		
 	}
-	function closemenu(){
-		sidemenu.style.right = "-200px";
-	}
-
 </script>
 
 </body>
