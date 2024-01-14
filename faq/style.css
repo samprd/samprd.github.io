@@ -129,6 +129,25 @@ nav ul li a:hover::before{
 	color: #ed8925;
 }
 
+/*questions*/
+.questions-list{
+	margin: 25px 0;
+}
+.questions-list h1{
+	font-size: 56px;
+	margin-bottom: 5px;
+}
+.question{
+	color: #fff;
+	font-size: 18px;
+	margin: 25px 40px;
+}
+.question h2{
+	color: #ed8925;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
 .createdby{
 	width: 100%;
 	text-align: center;
