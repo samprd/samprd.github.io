@@ -139,7 +139,7 @@ nav ul li a:hover::before{
 }
 .question{
 	background-color: #262626;
-	border-radius: 10px;
+	border-radius: 15px;
 	height: 15%;
 	color: #fff;
 	font-size: 18px;
