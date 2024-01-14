@@ -138,9 +138,17 @@ nav ul li a:hover::before{
 	margin-bottom: 5px;
 }
 .question{
+	background-color: #262626;
+	border-radius: 10px;
+	height: 15%;
 	color: #fff;
 	font-size: 18px;
-	margin: 25px 40px;
+	margin: 20px 40px;
+	padding: 15px;
+	transition: transform 0.5s;
+}
+.question:hover{
+	transform: scale(1.05);
 }
 .question h2{
 	color: #ed8925;
