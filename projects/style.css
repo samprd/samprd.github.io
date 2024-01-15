@@ -136,10 +136,19 @@ nav ul li a:hover::before{
 	border-radius: 30px;
 	margin: 40px;
 	padding: 30px;
+	transition: transform 0.5s;
 }
 .project-group h1{
 	margin: 5px 0 15 10px;
 	font-size: 56px;
+	transition: font-size 0.5s, color 0.5s;
+}
+.project-group:hover{
+	transform: scale(1.03);
+}
+.project-group:hover h1{
+	font-size: 60px;
+	color: #ff995e;
 }
 .project{
 	display: inline-block;
