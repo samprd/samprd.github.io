@@ -170,7 +170,8 @@ nav ul li a:hover::before{
 	height: 180px;
 	border-radius: 10px;
 	margin-bottom: 10px;
-	transition: transform 0.5s;
+	transition: transform 0.5s, filter 0.5s;
+	filter: brightness(0.75) grayscale(0.5);
 }
 .project:hover{
 	transform: scale(1.08);
@@ -182,6 +183,7 @@ nav ul li a:hover::before{
 }
 .project:hover img{
 	transform: scale(1.05);
+	filter: brightness(1) grayscale(0);
 }
 
 .createdby{
