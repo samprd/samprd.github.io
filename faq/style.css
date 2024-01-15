@@ -148,7 +148,7 @@ nav ul li a:hover::before{
 	transition: color 0.5s;
 }
 .questions-list:hover h1{
-	color: #ffbb78;
+	color: #ff995e;
 }
 .question{
 	background-color: #262626;
