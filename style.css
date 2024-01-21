@@ -64,6 +64,7 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
+	transition: font-size 0.35s;
 }
 nav ul li a::after{
 	content: '';
@@ -120,10 +121,12 @@ nav ul li a:hover::before{
 .header-text{
 	margin-top: 20%;
 	font-size: 30px;
+	transition: font-size 0.35s;
 }
 .header-text h1{
 	font-size: 60px;
 	margin-top: 20px;
+	transition: font-size 0.35s;
 }
 .header-text h1 span{
 	color: #ed8925;
@@ -158,12 +161,14 @@ nav ul li a:hover::before{
 
 .about-col-2{
 	flex-basis: 45%;
+	transition: font-size 0.35s;
 }
 
 .sub-title{
 	font-size: 60px;
 	font-weight: 600;
 	color: #fff;
+	transition: font-size 0.35s;
 }
 
 .aboutDesc{
@@ -183,7 +188,7 @@ nav ul li a:hover::before{
 	cursor: pointer;
 	position: relative;
 	color: #c7c7c7;
-	transition: color 0.5s;
+	transition: color 0.5s, font-size 0.35s;
 }
 .tab-links:hover{
 	color: #d47138;
@@ -452,7 +457,7 @@ nav ul li a:hover::before{
 	margin-bottom: 30px;
 	color: #ababab;
 	display: inline-block;
-	transition: transform 0.5s, color 0.5s, scale 0.5s;
+	transition: transform 0.5s, color 0.5s, scale 0.5s, font-size 0.35s;
 }
 .social-icons a:hover{
 	color: #ed8925;
@@ -467,6 +472,7 @@ nav ul li a:hover::before{
 	background: #262626;
 	font-weight: 360;
 	margin-top: 20px;
+	transition: font-size 0.35s;
 }
 .createdby i{
 	color: #ed8925;
