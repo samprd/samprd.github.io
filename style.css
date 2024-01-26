@@ -15,7 +15,7 @@ html{
 }
 
 body{
-	background: #080808;
+	background: #47392c;
 	color: #fff;
 	transition: opacity 1s;
 	animation-name: fadeout;
@@ -70,7 +70,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #ed8925;
+	background: #91eab2;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -109,7 +109,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #d47138;
+	color: #79e5a0;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -129,13 +129,13 @@ nav ul li a:hover::before{
 	transition: font-size 0.35s;
 }
 .header-text h1 span{
-	color: #ed8925;
+	color: #91eab2;
 }
 
 /* about */
 #about{
 	padding: 80px 0;
-	color: #ababab;
+	color: #dcdcdc;
 }
 
 .row{
@@ -191,16 +191,16 @@ nav ul li a:hover::before{
 	transition: color 0.5s, font-size 0.35s;
 }
 .tab-links:hover{
-	color: #d47138;
+	color: #79e5a0;
 }
 .tab-links.active-link{
-	color: #ed8925;
+	color: #91eab2;
 }
 .tab-links::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #ed8925;
+	background: #91eab2;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -221,16 +221,16 @@ nav ul li a:hover::before{
 	transition: color 0.5s;
 }
 .tab-links-2:hover{
-	color: #d47138;
+	color: #79e5a0;
 }
 .tab-links-2.active-link-2{
-	color: #ed8925;
+	color: #91eab2;
 }
 .tab-links-2::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #ed8925;
+	background: #91eab2;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -245,7 +245,7 @@ nav ul li a:hover::before{
 	margin: 10px 0;
 }
 .tab-contents ul li span {
-	color: #d47138;
+	color: #79e5a0;
 	font-size: 14px;
 }
 .tab-contents{
@@ -260,7 +260,7 @@ nav ul li a:hover::before{
 	margin: 10px 0;
 }
 .tab-contents-2 ul li span {
-	color: #d47138;
+	color: #79e5a0;
 	font-size: 14px;
 }
 .tab-contents-2{
@@ -292,11 +292,16 @@ nav ul li a:hover::before{
 .hobbies-list div i{
 	font-size: 50px;
 	margin-bottom: 30px;
+	transition: color 0.5s;
 }
 .hobbies-list div h2{
 	font-size: 30px;
 	font-weight: 500;
 	margin-bottom: 15px;
+	transition: color 0.5s;
+}
+.hobbies-list div p{
+	transition: color 0.5s;
 }
 .hobbies-list div a{
 	text-decoration: none;
@@ -307,12 +312,16 @@ nav ul li a:hover::before{
 	transition: color 0.5s;
 }
 .hobbies-list div:hover{
-	background: #ed8925;
+	background: #91eab2;
 	transform: translateY(-10px);
 	scale: 1.03;
+	color: #145e48;
+}
+.hobbies-list div:hover a{
+	color: #187156
 }
 .hobbies-list div a:hover{
-	color: #f7ad4e;
+	color: #278a4f;
 }
 
 /* projects */
@@ -350,7 +359,7 @@ nav ul li a:hover::before{
 }
 
 .layer{
-	background: radial-gradient(#000, #ed8925);
+	background: radial-gradient(#000, #91eab2);
 	opacity: 0;
 	width: 100%;
 	height: 100%;
@@ -377,7 +386,7 @@ nav ul li a:hover::before{
 }
 .layer a{
 	margin-top: 20px;
-	color: #ed8925;
+	color: #91eab2;
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 60px;
@@ -389,7 +398,7 @@ nav ul li a:hover::before{
 	transition: background 0.5s, color 0.5s;
 }
 .layer a:hover{
-	background: #ed8925;
+	background: #91eab2;
 	color: #fff;
 }
 
@@ -397,7 +406,7 @@ nav ul li a:hover::before{
 	display: block;
 	margin: 50px auto;
 	width: fit-content;
-	background-color: #ed8925;
+	background-color: #91eab2;
 	cursor: pointer;
 	padding: 14px 50px;
 	border-radius: 6px;
@@ -423,7 +432,7 @@ nav ul li a:hover::before{
 	margin-top: 30px;
 }
 .socials-col-1 p i{
-	color: #ed8925;
+	color: #91eab2;
 	margin-right: 15px;
 	font-size: 25px;
 	transition: transform 0.5s;
@@ -455,12 +464,12 @@ nav ul li a:hover::before{
 	font-size: 60px;
 	margin-right: 30px;
 	margin-bottom: 30px;
-	color: #ababab;
+	color: #dcdcdc;
 	display: inline-block;
 	transition: transform 0.5s, color 0.5s, scale 0.5s, font-size 0.35s;
 }
 .social-icons a:hover{
-	color: #ed8925;
+	color: #91eab2;
 	transform: translateY(-5px);
 	scale: 1.1;
 }
@@ -475,7 +484,7 @@ nav ul li a:hover::before{
 	transition: font-size 0.35s;
 }
 .createdby i{
-	color: #ed8925;
+	color: #91eab2;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{

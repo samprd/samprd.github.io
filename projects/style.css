@@ -15,7 +15,7 @@ html{
 }
 
 body{
-	background: #080808;
+	background: #47392c;
 	color: #fff;
 	transition: opacity 1s;
 	animation-name: fadeout;
@@ -70,7 +70,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #ed8925;
+	background: #91eab2;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -109,7 +109,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #d47138;
+	color: #79e5a0;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -129,7 +129,7 @@ nav ul li a:hover::before{
 	transition: font-size 0.35s;
 }
 .header-text h1 span{
-	color: #ed8925;
+	color: #91eab2;
 }
 /*projects*/
 .project-group{
@@ -179,7 +179,7 @@ nav ul li a:hover::before{
 }
 .project:hover{
 	transform: scale(1.08);
-	background-color: #d47138;
+	background-color: #79e5a0;
 	color: #fff;
 }
 .project:hover h2{
@@ -200,7 +200,7 @@ nav ul li a:hover::before{
 	transition: font-size 0.35s;
 }
 .createdby i{
-	color: #ed8925;
+	color: #91eab2;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{
