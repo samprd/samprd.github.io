@@ -64,7 +64,7 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
-	transition: font-size 0.35s;
+	;
 }
 nav ul li a::after{
 	content: '';
@@ -121,12 +121,12 @@ nav ul li a:hover::before{
 .header-text{
 	margin-top: 5%;
 	font-size: 30px;
-	transition: font-size 0.35s;
+	;
 }
 .header-text h1{
 	font-size: 60px;
 	margin-top: 20px;
-	transition: font-size 0.35s;
+	;
 }
 .header-text h1 span{
 	color: #91eab2;
@@ -136,10 +136,10 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #262626;
+	background: #674f40;
 	font-weight: 360;
 	margin-top: 20px;
-	transition: font-size 0.35s;
+	;
 }
 .createdby i{
 	color: #91eab2;

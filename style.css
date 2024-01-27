@@ -64,7 +64,7 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
-	transition: font-size 0.35s;
+	;
 }
 nav ul li a::after{
 	content: '';
@@ -121,12 +121,12 @@ nav ul li a:hover::before{
 .header-text{
 	margin-top: 20%;
 	font-size: 30px;
-	transition: font-size 0.35s;
+	;
 }
 .header-text h1{
 	font-size: 60px;
 	margin-top: 20px;
-	transition: font-size 0.35s;
+	;
 }
 .header-text h1 span{
 	color: #91eab2;
@@ -135,7 +135,7 @@ nav ul li a:hover::before{
 /* about */
 #about{
 	padding: 80px 0;
-	color: #dcdcdc;
+	color: #cb936b;
 }
 
 .row{
@@ -161,14 +161,14 @@ nav ul li a:hover::before{
 
 .about-col-2{
 	flex-basis: 45%;
-	transition: font-size 0.35s;
+	;
 }
 
 .sub-title{
 	font-size: 60px;
 	font-weight: 600;
 	color: #d09d6a;
-	transition: font-size 0.35s;
+	;
 }
 
 .aboutDesc{
@@ -187,8 +187,8 @@ nav ul li a:hover::before{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
-	color: #c7c7c7;
-	transition: color 0.5s, font-size 0.35s;
+	color: #ab8870;
+	transition: color 0.5s;
 }
 .tab-links:hover{
 	color: #79e5a0;
@@ -217,7 +217,7 @@ nav ul li a:hover::before{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
-	color: #c7c7c7;
+	color: #ab8870;
 	transition: color 0.5s;
 }
 .tab-links-2:hover{
@@ -318,7 +318,7 @@ nav ul li a:hover::before{
 	color: #145e48;
 }
 .hobbies-list div:hover a{
-	color: #187156
+	color: #187156;
 }
 .hobbies-list div a:hover{
 	color: #278a4f;
@@ -406,16 +406,18 @@ nav ul li a:hover::before{
 	display: block;
 	margin: 50px auto;
 	width: fit-content;
-	background-color: #91eab2;
+	background-color: #69573b;
 	cursor: pointer;
 	padding: 14px 50px;
 	border-radius: 6px;
 	text-decoration: none;
 	color: #d09d6a;
-	transition: transform 0.5s;
+	transition: transform 0.5s, background-color 0.5s, color 0.5s;
 }
 .btn:hover{
 	transform: scale(1.1);
+	background-color: #91eab2;
+	color: #408459;
 }
 
 /*socials*/
@@ -464,9 +466,9 @@ nav ul li a:hover::before{
 	font-size: 60px;
 	margin-right: 30px;
 	margin-bottom: 30px;
-	color: #dcdcdc;
+	color: #cb936b;
 	display: inline-block;
-	transition: transform 0.5s, color 0.5s, scale 0.5s, font-size 0.35s;
+	transition: transform 0.5s, color 0.5s, scale 0.5s;
 }
 .social-icons a:hover{
 	color: #91eab2;
@@ -478,10 +480,10 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #262626;
+	background: #674f40;
 	font-weight: 360;
 	margin-top: 20px;
-	transition: font-size 0.35s;
+	;
 }
 .createdby i{
 	color: #91eab2;
