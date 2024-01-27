@@ -148,7 +148,7 @@ nav ul li a:hover::before{
 	transition: color 0.5s;
 }
 .questions-list:hover h1{
-	color: #ff995e;
+	color: #5eff96;
 }
 .question{
 	background-color: #262626;
@@ -164,7 +164,7 @@ nav ul li a:hover::before{
 	transform: scale(1.05);
 }
 .question:hover h2{
-	color: #da7d21;
+	color: #21da7d;
 }
 .question h2{
 	color: #79e5a0;
