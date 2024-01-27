@@ -151,7 +151,7 @@ nav ul li a:hover::before{
 }
 .project-group:hover h1{
 	font-size: 60px;
-	color: #ff995e;
+	color: #5effb4;
 }
 .project{
 	display: inline-block;
