@@ -16,7 +16,7 @@ html{
 
 body{
 	background: #47392c;
-	color: #fff;
+	color: #d09d6a;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
@@ -60,7 +60,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #fff;
+	color: #d09d6a;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -167,7 +167,7 @@ nav ul li a:hover::before{
 .sub-title{
 	font-size: 60px;
 	font-weight: 600;
-	color: #fff;
+	color: #d09d6a;
 	transition: font-size 0.35s;
 }
 
@@ -282,7 +282,7 @@ nav ul li a:hover::before{
 	margin-top: 50px;
 }
 .hobbies-list div{
-	background-color: #262626;
+	background-color: #a17d4e;
 	padding: 40px;
 	font-size: 13px;
 	font-weight: 300;
@@ -306,7 +306,7 @@ nav ul li a:hover::before{
 .hobbies-list div a{
 	text-decoration: none;
 	font-size: 18px;
-	color: #fff;
+	color: #d09d6a;
 	margin-top: 30px;
 	display: inline-block;
 	transition: color 0.5s;
@@ -390,7 +390,7 @@ nav ul li a:hover::before{
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 60px;
-	background: #fff;
+	background: #d09d6a;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
@@ -399,7 +399,7 @@ nav ul li a:hover::before{
 }
 .layer a:hover{
 	background: #91eab2;
-	color: #fff;
+	color: #d09d6a;
 }
 
 .btn{
@@ -411,7 +411,7 @@ nav ul li a:hover::before{
 	padding: 14px 50px;
 	border-radius: 6px;
 	text-decoration: none;
-	color: #fff;
+	color: #d09d6a;
 	transition: transform 0.5s;
 }
 .btn:hover{

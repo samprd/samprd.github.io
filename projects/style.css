@@ -16,7 +16,7 @@ html{
 
 body{
 	background: #47392c;
-	color: #fff;
+	color: #d09d6a;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
@@ -60,7 +60,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #fff;
+	color: #d09d6a;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -180,10 +180,10 @@ nav ul li a:hover::before{
 .project:hover{
 	transform: scale(1.08);
 	background-color: #79e5a0;
-	color: #fff;
+	color: #d09d6a;
 }
 .project:hover h2{
-	color: #fff;
+	color: #d09d6a;
 }
 .project:hover img{
 	transform: scale(1.05);

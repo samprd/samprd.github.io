@@ -16,7 +16,7 @@ html{
 
 body{
 	background: #47392c;
-	color: #fff;
+	color: #d09d6a;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
@@ -60,7 +60,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #fff;
+	color: #d09d6a;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -154,7 +154,7 @@ nav ul li a:hover::before{
 	background-color: #262626;
 	border-radius: 15px;
 	height: 15%;
-	color: #fff;
+	color: #d09d6a;
 	font-size: 18px;
 	margin: 20px 40px;
 	padding: 15px;
