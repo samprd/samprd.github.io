@@ -499,7 +499,7 @@ nav ul li a:hover::before{
 
 @media only screen and (max-width: 600px){
 	#header{
-		background-image: url(./assets/images/home/phone-background.JPG);
+		background-image: url("./assets/images/home/phone-background.JPG");
 	}
 	.header-text{
 		margin-top: 100%;
