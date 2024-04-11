@@ -22,7 +22,7 @@ body{
 	animation-duration: 1s;
 }
 .shadow{
-	text-shadow: 5px 5px 5px #ffffff;
+	text-shadow: 5px 5px 5px #869b89;
 }
 
 @keyframes fadeout {
