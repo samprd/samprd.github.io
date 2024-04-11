@@ -15,8 +15,8 @@ html{
 }
 
 body{
-	background: #9b817f;
-	color: #75f0aa;
+	background: #70604f;
+	color: #90f09e;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
@@ -63,7 +63,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #75f0aa;
+	color: #90f09e;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -73,7 +73,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #9b817f;
+	background: #70604f;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -112,7 +112,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #75f0aa;
+	color: #90f09e;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -132,20 +132,20 @@ nav ul li a:hover::before{
 	;
 }
 .header-text h1 span{
-	color: #75f0aa;
+	color: #90f09e;
 }
 
 .createdby{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #9b817f;
+	background: #70604f;
 	font-weight: 360;
 	margin-top: 20px;
 	;
 }
 .createdby i{
-	color: #75f0aa;
+	color: #90f09e;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{
