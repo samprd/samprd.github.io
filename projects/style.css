@@ -16,7 +16,7 @@ html{
 
 body{
 	background: #ffffff;
-	color: #ffffff;
+	color: #75f0aa;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
@@ -63,7 +63,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #ffffff;
+	color: #75f0aa;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -112,7 +112,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #ffffff;
+	color: #75f0aa;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -132,7 +132,7 @@ nav ul li a:hover::before{
 	;
 }
 .header-text h1 span{
-	color: #ffffff;
+	color: #75f0aa;
 }
 /*projects*/
 .project-group{
@@ -154,14 +154,14 @@ nav ul li a:hover::before{
 }
 .project-group:hover h1{
 	font-size: 60px;
-	color: #ffffff;
+	color: #75f0aa;
 }
 .project{
 	display: inline-block;
 	width: 40%;
 	height: 40%;
 	background-color: #ffffff;
-	color: #ffffff;
+	color: #75f0aa;
 	border-radius: 15px;
 	margin: 15px;
 	padding: 20px;
@@ -183,10 +183,10 @@ nav ul li a:hover::before{
 .project:hover{
 	transform: scale(1.08);
 	background-color: #ffffff;
-	color: #ffffff;
+	color: #75f0aa;
 }
 .project:hover h2{
-	color: #ffffff;
+	color: #75f0aa;
 }
 .project:hover img{
 	transform: scale(1.05);
@@ -203,7 +203,7 @@ nav ul li a:hover::before{
 	;
 }
 .createdby i{
-	color: #ffffff;
+	color: #75f0aa;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{
