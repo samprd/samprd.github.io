@@ -15,7 +15,7 @@ html{
 }
 
 body{
-	background: #ffffff;
+	background: #9b817f;
 	color: #75f0aa;
 	transition: opacity 1s;
 	animation-name: fadeout;
@@ -73,7 +73,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #ffffff;
+	background: #9b817f;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -138,7 +138,7 @@ nav ul li a:hover::before{
 .project-group{
 	width: 80vw;
 	height: 115vh;
-	background-color: #ffffff;
+	background-color: #9b817f;
 	border-radius: 30px;
 	margin: 40px auto 40px;
 	padding: 30px;
@@ -160,7 +160,7 @@ nav ul li a:hover::before{
 	display: inline-block;
 	width: 40%;
 	height: 40%;
-	background-color: #ffffff;
+	background-color: #9b817f;
 	color: #75f0aa;
 	border-radius: 15px;
 	margin: 15px;
@@ -182,7 +182,7 @@ nav ul li a:hover::before{
 }
 .project:hover{
 	transform: scale(1.08);
-	background-color: #ffffff;
+	background-color: #9b817f;
 	color: #75f0aa;
 }
 .project:hover h2{
@@ -197,7 +197,7 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #ffffff;
+	background: #9b817f;
 	font-weight: 360;
 	margin-top: 20px;
 	;
