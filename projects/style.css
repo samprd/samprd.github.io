@@ -15,14 +15,14 @@ html{
 }
 
 body{
-	background: #47392c;
-	color: #d09d6a;
+	background: #ffffff;
+	color: #ffffff;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
 }
 .shadow{
-	text-shadow: 5px 5px 5px #000000;
+	text-shadow: 5px 5px 5px #ffffff;
 }
 
 @keyframes fadeout {
@@ -63,7 +63,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #d09d6a;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -73,7 +73,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #91eab2;
+	background: #ffffff;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -112,7 +112,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #79e5a0;
+	color: #ffffff;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -132,13 +132,13 @@ nav ul li a:hover::before{
 	;
 }
 .header-text h1 span{
-	color: #91eab2;
+	color: #ffffff;
 }
 /*projects*/
 .project-group{
 	width: 80vw;
 	height: 115vh;
-	background-color: #674f40;
+	background-color: #ffffff;
 	border-radius: 30px;
 	margin: 40px auto 40px;
 	padding: 30px;
@@ -154,14 +154,14 @@ nav ul li a:hover::before{
 }
 .project-group:hover h1{
 	font-size: 60px;
-	color: #5effb4;
+	color: #ffffff;
 }
 .project{
 	display: inline-block;
 	width: 40%;
 	height: 40%;
-	background-color: #735d4c;
-	color: #c4a27b;
+	background-color: #ffffff;
+	color: #ffffff;
 	border-radius: 15px;
 	margin: 15px;
 	padding: 20px;
@@ -182,11 +182,11 @@ nav ul li a:hover::before{
 }
 .project:hover{
 	transform: scale(1.08);
-	background-color: #79e5a0;
-	color: #145e48;
+	background-color: #ffffff;
+	color: #ffffff;
 }
 .project:hover h2{
-	color: #1c7f61;
+	color: #ffffff;
 }
 .project:hover img{
 	transform: scale(1.05);
@@ -197,13 +197,13 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #674f40;
+	background: #ffffff;
 	font-weight: 360;
 	margin-top: 20px;
 	;
 }
 .createdby i{
-	color: #91eab2;
+	color: #ffffff;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{

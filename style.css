@@ -15,14 +15,14 @@ html{
 }
 
 body{
-	background: #47392c;
-	color: #d09d6a;
+	background: #ffffff;
+	color: #ffffff;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
 }
 .shadow{
-	text-shadow: 5px 5px 5px #000000;
+	text-shadow: 5px 5px 5px #ffffff;
 }
 
 @keyframes fadeout {
@@ -64,7 +64,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #d09d6a;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -73,7 +73,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #91eab2;
+	background: #ffffff;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -112,7 +112,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #79e5a0;
+	color: #ffffff;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -132,13 +132,13 @@ nav ul li a:hover::before{
 	;
 }
 .header-text h1 span{
-	color: #91eab2;
+	color: #ffffff;
 }
 
 /* about */
 #about{
 	padding: 80px 0;
-	color: #cb936b;
+	color: #ffffff;
 }
 
 .row{
@@ -170,7 +170,7 @@ nav ul li a:hover::before{
 .sub-title{
 	font-size: 60px;
 	font-weight: 600;
-	color: #d09d6a;
+	color: #ffffff;
 	;
 }
 
@@ -190,20 +190,20 @@ nav ul li a:hover::before{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
-	color: #ab8870;
+	color: #ffffff;
 	transition: color 0.5s;
 }
 .tab-links:hover{
-	color: #79e5a0;
+	color: #ffffff;
 }
 .tab-links.active-link{
-	color: #91eab2;
+	color: #ffffff;
 }
 .tab-links::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #91eab2;
+	background: #ffffff;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -220,20 +220,20 @@ nav ul li a:hover::before{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
-	color: #ab8870;
+	color: #ffffff;
 	transition: color 0.5s;
 }
 .tab-links-2:hover{
-	color: #79e5a0;
+	color: #ffffff;
 }
 .tab-links-2.active-link-2{
-	color: #91eab2;
+	color: #ffffff;
 }
 .tab-links-2::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #91eab2;
+	background: #ffffff;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -248,7 +248,7 @@ nav ul li a:hover::before{
 	margin: 10px 0;
 }
 .tab-contents ul li span {
-	color: #79e5a0;
+	color: #ffffff;
 	font-size: 14px;
 }
 .tab-contents{
@@ -263,7 +263,7 @@ nav ul li a:hover::before{
 	margin: 10px 0;
 }
 .tab-contents-2 ul li span {
-	color: #79e5a0;
+	color: #ffffff;
 	font-size: 14px;
 }
 .tab-contents-2{
@@ -285,7 +285,7 @@ nav ul li a:hover::before{
 	margin-top: 50px;
 }
 .hobbies-list div{
-	background-color: #5c4b37;
+	background-color: #ffffff;
 	padding: 40px;
 	font-size: 13px;
 	font-weight: 300;
@@ -309,22 +309,22 @@ nav ul li a:hover::before{
 .hobbies-list div a{
 	text-decoration: none;
 	font-size: 18px;
-	color: #d09d6a;
+	color: #ffffff;
 	margin-top: 30px;
 	display: inline-block;
 	transition: color 0.5s;
 }
 .hobbies-list div:hover{
-	background: #91eab2;
+	background: #ffffff;
 	transform: translateY(-10px);
 	scale: 1.03;
-	color: #145e48;
+	color: #ffffff;
 }
 .hobbies-list div:hover a{
-	color: #187156;
+	color: #ffffff;
 }
 .hobbies-list div a:hover{
-	color: #278a4f;
+	color: #ffffff;
 }
 
 /* projects */
@@ -362,7 +362,7 @@ nav ul li a:hover::before{
 }
 
 .layer{
-	background: radial-gradient(#000, #91eab2);
+	background: radial-gradient(#000, #ffffff);
 	opacity: 0;
 	width: 100%;
 	height: 100%;
@@ -389,11 +389,11 @@ nav ul li a:hover::before{
 }
 .layer a{
 	margin-top: 20px;
-	color: #91eab2;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 60px;
-	background: #d09d6a;
+	background: #ffffff;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
@@ -401,26 +401,26 @@ nav ul li a:hover::before{
 	transition: background 0.5s, color 0.5s;
 }
 .layer a:hover{
-	background: #91eab2;
-	color: #d09d6a;
+	background: #ffffff;
+	color: #ffffff;
 }
 
 .btn{
 	display: block;
 	margin: 50px auto;
 	width: fit-content;
-	background-color: #69573b;
+	background-color: #ffffff;
 	cursor: pointer;
 	padding: 14px 50px;
 	border-radius: 6px;
 	text-decoration: none;
-	color: #d09d6a;
+	color: #ffffff;
 	transition: transform 0.5s, background-color 0.5s, color 0.5s;
 }
 .btn:hover{
 	transform: scale(1.1);
-	background-color: #91eab2;
-	color: #408459;
+	background-color: #ffffff;
+	color: #ffffff;
 }
 
 /*socials*/
@@ -437,7 +437,7 @@ nav ul li a:hover::before{
 	margin-top: 30px;
 }
 .socials-col-1 p i{
-	color: #91eab2;
+	color: #ffffff;
 	margin-right: 15px;
 	font-size: 25px;
 	transition: transform 0.5s;
@@ -469,12 +469,12 @@ nav ul li a:hover::before{
 	font-size: 60px;
 	margin-right: 30px;
 	margin-bottom: 30px;
-	color: #cb936b;
+	color: #ffffff;
 	display: inline-block;
 	transition: transform 0.5s, color 0.5s, scale 0.5s;
 }
 .social-icons a:hover{
-	color: #91eab2;
+	color: #ffffff;
 	transform: translateY(-5px);
 	scale: 1.1;
 }
@@ -483,13 +483,13 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #674f40;
+	background: #ffffff;
 	font-weight: 360;
 	margin-top: 20px;
 	;
 }
 .createdby i{
-	color: #91eab2;
+	color: #ffffff;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{
