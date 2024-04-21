@@ -15,14 +15,14 @@ html{
 }
 
 body{
-	background: #ffffff;
-	color: #ffffff;
+	background: #47392c;
+	color: #d09d6a;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
 }
 .shadow{
-	text-shadow: 5px 5px 5px #ffffff;
+	text-shadow: 5px 5px 5px #000000;
 }
 
 @keyframes fadeout {
@@ -63,7 +63,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #ffffff;
+	color: #d09d6a;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -72,7 +72,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #ffffff;
+	background: #91eab2;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -111,7 +111,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #ffffff;
+	color: #79e5a0;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -129,7 +129,7 @@ nav ul li a:hover::before{
 	margin-top: 20px;
 }
 .header-text h1 span{
-	color: #ffffff;
+	color: #91eab2;
 }
 
 /*questions*/
@@ -139,7 +139,7 @@ nav ul li a:hover::before{
 	margin: 30px 0;
 	padding: 15px 10px;
 	border-radius: 20px;
-	background-color: #ffffff;
+	background-color: #302b21;
 	transition: transform 0.5s;
 }
 .questions-list:hover{
@@ -151,13 +151,13 @@ nav ul li a:hover::before{
 	transition: color 0.5s;
 }
 .questions-list:hover h1{
-	color: #ffffff;
+	color: #5eff96;
 }
 .question{
-	background-color: #ffffff;
+	background-color: #674f40;
 	border-radius: 15px;
 	height: 15%;
-	color: #ffffff;
+	color: #d09d6a;
 	font-size: 18px;
 	margin: 20px 40px;
 	padding: 15px;
@@ -167,10 +167,10 @@ nav ul li a:hover::before{
 	transform: scale(1.05);
 }
 .question:hover h2{
-	color: #ffffff;
+	color: #21da7d;
 }
 .question h2{
-	color: #ffffff;
+	color: #e5ab79;
 	font-size: 36px;
 	margin-bottom: 10px;
 	transition: color 0.5s;
@@ -180,12 +180,12 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #ffffff;
+	background: #674f40;
 	font-weight: 360;
 	margin-top: 20px;
 }
 .createdby i{
-	color: #ffffff;
+	color: #91eab2;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{
