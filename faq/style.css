@@ -16,7 +16,7 @@ html{
 
 body{
 	background: #ffffff;
-	color: #75f0aa;
+	color: #ffffff;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
@@ -63,7 +63,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #75f0aa;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -111,7 +111,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #75f0aa;
+	color: #ffffff;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -129,7 +129,7 @@ nav ul li a:hover::before{
 	margin-top: 20px;
 }
 .header-text h1 span{
-	color: #75f0aa;
+	color: #ffffff;
 }
 
 /*questions*/
@@ -151,13 +151,13 @@ nav ul li a:hover::before{
 	transition: color 0.5s;
 }
 .questions-list:hover h1{
-	color: #75f0aa;
+	color: #ffffff;
 }
 .question{
 	background-color: #ffffff;
 	border-radius: 15px;
 	height: 15%;
-	color: #75f0aa;
+	color: #ffffff;
 	font-size: 18px;
 	margin: 20px 40px;
 	padding: 15px;
@@ -167,10 +167,10 @@ nav ul li a:hover::before{
 	transform: scale(1.05);
 }
 .question:hover h2{
-	color: #75f0aa;
+	color: #ffffff;
 }
 .question h2{
-	color: #75f0aa;
+	color: #ffffff;
 	font-size: 36px;
 	margin-bottom: 10px;
 	transition: color 0.5s;
@@ -185,7 +185,7 @@ nav ul li a:hover::before{
 	margin-top: 20px;
 }
 .createdby i{
-	color: #75f0aa;
+	color: #ffffff;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{
