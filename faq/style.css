@@ -15,7 +15,7 @@ html{
 }
 
 body{
-	background: #9b817f;
+	background: #ffffff;
 	color: #75f0aa;
 	transition: opacity 1s;
 	animation-name: fadeout;
@@ -72,7 +72,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #9b817f;
+	background: #ffffff;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -139,7 +139,7 @@ nav ul li a:hover::before{
 	margin: 30px 0;
 	padding: 15px 10px;
 	border-radius: 20px;
-	background-color: #9b817f;
+	background-color: #ffffff;
 	transition: transform 0.5s;
 }
 .questions-list:hover{
@@ -154,7 +154,7 @@ nav ul li a:hover::before{
 	color: #75f0aa;
 }
 .question{
-	background-color: #9b817f;
+	background-color: #ffffff;
 	border-radius: 15px;
 	height: 15%;
 	color: #75f0aa;
@@ -180,7 +180,7 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #9b817f;
+	background: #ffffff;
 	font-weight: 360;
 	margin-top: 20px;
 }

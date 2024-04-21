@@ -15,7 +15,7 @@ html{
 }
 
 body{
-	background: #9b817f;
+	background: #ffffff;
 	color: #75f0aa;
 	transition: opacity 1s;
 	animation-name: fadeout;
@@ -73,7 +73,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #9b817f;
+	background: #ffffff;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -232,7 +232,7 @@ nav ul li a:hover::before{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #9b817f;
+	background: #ffffff;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -284,7 +284,7 @@ nav ul li a:hover::before{
 	margin-top: 50px;
 }
 .hobbies-list div{
-	background-color: #9b817f;
+	background-color: #ffffff;
 	padding: 40px;
 	font-size: 13px;
 	font-weight: 300;
@@ -314,7 +314,7 @@ nav ul li a:hover::before{
 	transition: color 0.5s;
 }
 .hobbies-list div:hover{
-	background: #9b817f;
+	background: #ffffff;
 	transform: translateY(-10px);
 	scale: 1.03;
 	color: #75f0aa;
@@ -392,7 +392,7 @@ nav ul li a:hover::before{
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 60px;
-	background: #9b817f;
+	background: #ffffff;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
@@ -400,7 +400,7 @@ nav ul li a:hover::before{
 	transition: background 0.5s, color 0.5s;
 }
 .layer a:hover{
-	background: #9b817f;
+	background: #ffffff;
 	color: #75f0aa;
 }
 
@@ -408,7 +408,7 @@ nav ul li a:hover::before{
 	display: block;
 	margin: 50px auto;
 	width: fit-content;
-	background-color: #9b817f;
+	background-color: #ffffff;
 	cursor: pointer;
 	padding: 14px 50px;
 	border-radius: 6px;
@@ -418,7 +418,7 @@ nav ul li a:hover::before{
 }
 .btn:hover{
 	transform: scale(1.1);
-	background-color: #9b817f;
+	background-color: #ffffff;
 	color: #75f0aa;
 }
 
@@ -482,7 +482,7 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #9b817f;
+	background: #ffffff;
 	font-weight: 360;
 	margin-top: 20px;
 	;
