@@ -15,8 +15,8 @@ html{
 }
 
 body{
-	background: #70604f;
-	color: #90f09e;
+	background: #9b817f;
+	color: #75f0aa;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
@@ -64,7 +64,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #90f09e;
+	color: #75f0aa;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -73,7 +73,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #70604f;
+	background: #9b817f;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -112,7 +112,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -132,13 +132,13 @@ nav ul li a:hover::before{
 	;
 }
 .header-text h1 span{
-	color: #90f09e;
+	color: #75f0aa;
 }
 
 /* about */
 #about{
 	padding: 80px 0;
-	color: #90f09e;
+	color: #75f0aa;
 }
 
 .row{
@@ -169,7 +169,7 @@ nav ul li a:hover::before{
 .sub-title{
 	font-size: 60px;
 	font-weight: 600;
-	color: #90f09e;
+	color: #75f0aa;
 	;
 }
 
@@ -189,20 +189,20 @@ nav ul li a:hover::before{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
-	color: #90f09e;
+	color: #75f0aa;
 	transition: color 0.5s;
 }
 .tab-links:hover{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .tab-links.active-link{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .tab-links::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #90f09e;
+	background: #75f0aa;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -219,20 +219,20 @@ nav ul li a:hover::before{
 	font-weight: 500;
 	cursor: pointer;
 	position: relative;
-	color: #90f09e;
+	color: #75f0aa;
 	transition: color 0.5s;
 }
 .tab-links-2:hover{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .tab-links-2.active-link-2{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .tab-links-2::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #90f09e;
+	background: #9b817f;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -247,7 +247,7 @@ nav ul li a:hover::before{
 	margin: 10px 0;
 }
 .tab-contents ul li span {
-	color: #90f09e;
+	color: #75f0aa;
 	font-size: 14px;
 }
 .tab-contents{
@@ -262,7 +262,7 @@ nav ul li a:hover::before{
 	margin: 10px 0;
 }
 .tab-contents-2 ul li span {
-	color: #90f09e;
+	color: #75f0aa;
 	font-size: 14px;
 }
 .tab-contents-2{
@@ -284,7 +284,7 @@ nav ul li a:hover::before{
 	margin-top: 50px;
 }
 .hobbies-list div{
-	background-color: #70604f;
+	background-color: #9b817f;
 	padding: 40px;
 	font-size: 13px;
 	font-weight: 300;
@@ -308,22 +308,22 @@ nav ul li a:hover::before{
 .hobbies-list div a{
 	text-decoration: none;
 	font-size: 18px;
-	color: #90f09e;
+	color: #75f0aa;
 	margin-top: 30px;
 	display: inline-block;
 	transition: color 0.5s;
 }
 .hobbies-list div:hover{
-	background: #70604f;
+	background: #9b817f;
 	transform: translateY(-10px);
 	scale: 1.03;
-	color: #90f09e;
+	color: #75f0aa;
 }
 .hobbies-list div:hover a{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .hobbies-list div a:hover{
-	color: #90f09e;
+	color: #75f0aa;
 }
 
 /* projects */
@@ -388,11 +388,11 @@ nav ul li a:hover::before{
 }
 .layer a{
 	margin-top: 20px;
-	color: #90f09e;
+	color: #75f0aa;
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 60px;
-	background: #70604f;
+	background: #9b817f;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
@@ -400,26 +400,26 @@ nav ul li a:hover::before{
 	transition: background 0.5s, color 0.5s;
 }
 .layer a:hover{
-	background: #70604f;
-	color: #90f09e;
+	background: #9b817f;
+	color: #75f0aa;
 }
 
 .btn{
 	display: block;
 	margin: 50px auto;
 	width: fit-content;
-	background-color: #70604f;
+	background-color: #9b817f;
 	cursor: pointer;
 	padding: 14px 50px;
 	border-radius: 6px;
 	text-decoration: none;
-	color: #90f09e;
+	color: #75f0aa;
 	transition: transform 0.5s, background-color 0.5s, color 0.5s;
 }
 .btn:hover{
 	transform: scale(1.1);
-	background-color: #70604f;
-	color: #90f09e;
+	background-color: #9b817f;
+	color: #75f0aa;
 }
 
 /*socials*/
@@ -436,7 +436,7 @@ nav ul li a:hover::before{
 	margin-top: 30px;
 }
 .socials-col-1 p i{
-	color: #90f09e;
+	color: #75f0aa;
 	margin-right: 15px;
 	font-size: 25px;
 	transition: transform 0.5s;
@@ -468,12 +468,12 @@ nav ul li a:hover::before{
 	font-size: 60px;
 	margin-right: 30px;
 	margin-bottom: 30px;
-	color: #90f09e;
+	color: #75f0aa;
 	display: inline-block;
 	transition: transform 0.5s, color 0.5s, scale 0.5s;
 }
 .social-icons a:hover{
-	color: #90f09e;
+	color: #75f0aa;
 	transform: translateY(-5px);
 	scale: 1.1;
 }
@@ -482,13 +482,13 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #70604f;
+	background: #9b817f;
 	font-weight: 360;
 	margin-top: 20px;
 	;
 }
 .createdby i{
-	color: #90f09e;
+	color: #75f0aa;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{

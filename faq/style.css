@@ -15,8 +15,8 @@ html{
 }
 
 body{
-	background: #70604f;
-	color: #90f09e;
+	background: #9b817f;
+	color: #75f0aa;
 	transition: opacity 1s;
 	animation-name: fadeout;
 	animation-duration: 1s;
@@ -63,7 +63,7 @@ nav ul li:hover{
 	transform: scale(1.5);
 }
 nav ul li a{
-	color: #90f09e;
+	color: #75f0aa;
 	text-decoration: none;
 	font-size: 36px;
 	position: relative;
@@ -72,7 +72,7 @@ nav ul li a::after{
 	content: '';
 	width: 0;
 	height: 3px;
-	background: #70604f;
+	background: #9b817f;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -111,7 +111,7 @@ nav ul li a:hover::before{
 	font-size: 28px;
 }
 .activenav{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .activenav:hover::after{
 	width: 0%;
@@ -129,7 +129,7 @@ nav ul li a:hover::before{
 	margin-top: 20px;
 }
 .header-text h1 span{
-	color: #90f09e;
+	color: #75f0aa;
 }
 
 /*questions*/
@@ -139,7 +139,7 @@ nav ul li a:hover::before{
 	margin: 30px 0;
 	padding: 15px 10px;
 	border-radius: 20px;
-	background-color: #70604f;
+	background-color: #9b817f;
 	transition: transform 0.5s;
 }
 .questions-list:hover{
@@ -151,13 +151,13 @@ nav ul li a:hover::before{
 	transition: color 0.5s;
 }
 .questions-list:hover h1{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .question{
-	background-color: #70604f;
+	background-color: #9b817f;
 	border-radius: 15px;
 	height: 15%;
-	color: #90f09e;
+	color: #75f0aa;
 	font-size: 18px;
 	margin: 20px 40px;
 	padding: 15px;
@@ -167,10 +167,10 @@ nav ul li a:hover::before{
 	transform: scale(1.05);
 }
 .question:hover h2{
-	color: #90f09e;
+	color: #75f0aa;
 }
 .question h2{
-	color: #90f09e;
+	color: #75f0aa;
 	font-size: 36px;
 	margin-bottom: 10px;
 	transition: color 0.5s;
@@ -180,12 +180,12 @@ nav ul li a:hover::before{
 	width: 100%;
 	text-align: center;
 	padding: 25px;
-	background: #70604f;
+	background: #9b817f;
 	font-weight: 360;
 	margin-top: 20px;
 }
 .createdby i{
-	color: #90f09e;
+	color: #75f0aa;
 	transition: transform 0.5s, margin 0.5s;
 }
 .createdby:hover i{
